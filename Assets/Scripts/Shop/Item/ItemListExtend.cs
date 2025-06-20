@@ -1,10 +1,8 @@
 using UnityEngine;
 
-public class ItemDatas : ScriptableObject
+public static class ItemListExtend
 {
-    public ItemList Items;
-
-    private ItemDatas()
+    public static void InitItemList(this ItemList Items)
     {
         Items.SetItemData(1, new FishingRobData(1, "³°Àº ³¬½Ã´ë", 0, Performance.WORN_OUT));
         Items.SetItemData(2, new FishingRobData(2, "¾öÃ» °¡º­¿î ³¬½Ã´ë", 10, Performance.ULTRA_LIGHT));

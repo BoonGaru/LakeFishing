@@ -6,6 +6,11 @@ public class ItemList
 {
     private Dictionary<int, object> _itenData = new();
 
+    public ItemList()
+    {
+        this.InitItemList();
+    }
+
     public void SetItemData(int id, object data)
     {
         _itenData[id] = data;
