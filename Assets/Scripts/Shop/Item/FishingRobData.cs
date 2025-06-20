@@ -9,12 +9,4 @@ public class FishingRobData :ScriptableObject
     public Performance Perform;
 
     public bool IsOwned;
-
-    public FishingRobData(int id, string name, int price, Performance performance)
-    {
-        FishingRobID = id;
-        Name = name;
-        Price = price;
-        Perform = performance;
-    }
 }

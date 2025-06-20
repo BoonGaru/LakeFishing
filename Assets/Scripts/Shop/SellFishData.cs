@@ -14,14 +14,14 @@ public class SellFishData : MonoBehaviour
     [SerializeField]
     private GameObject _priceObj;
 
-    private ItemList _itemList;
+    [SerializeField]
     private FishData _fishData;
 
     private void Awake()
     {
-        _itemList = _UIManager.GetComponent<ShopWindowController>().Items;
+        /*_itemList = _UIManager.GetComponent<ShopWindowController>().Items;
         _fishData = (FishData)_itemList.GetItemData(FishID);
-        Debug.Log(_fishData.Name);
+        Debug.Log(_fishData.Name);*/
 
         _nameObj.GetComponent<TextMeshProUGUI>().text = _fishData.Name;
         _priceObj.GetComponent<TextMeshProUGUI>().text = "+ " + _fishData.Price;

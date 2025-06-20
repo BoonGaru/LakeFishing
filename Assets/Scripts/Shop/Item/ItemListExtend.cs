@@ -1,7 +1,7 @@
 using UnityEngine;
 
 public static class ItemListExtend
-{
+{/*
     public static void InitItemList(this ItemList Items)
     {
         Items.SetItemData(1, new FishingRobData(1, "낡은 낚시대", 0, Performance.WORN_OUT));
@@ -26,5 +26,5 @@ public static class ItemListExtend
         Items.SetItemData(1010, new FishData(1010, "대방이상어", 5000, Grade.S, 70));
         Items.SetItemData(1011, new FishData(1011, "가루상어", 5000, Grade.S, 50));
         Items.SetItemData(1012, new FishData(1012, "대방이고래", 10000, Grade.S, 100));
-    }
+    }*/
 }

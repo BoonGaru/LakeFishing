@@ -4,6 +4,6 @@ public class PlayerInventory
 {
     public int Gold = 0;
 
-    public List<FishData> OwnedFIsh = new();
+    public int[] OwndFish = new int[12];
     public List<FishingRobData> OwnedFishingRobs = new();
 }

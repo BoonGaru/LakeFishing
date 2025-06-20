@@ -9,7 +9,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3de00d430ef44664cb05d639913877de, type: 3}
+  m_Script: {fileID: 11500000, guid: b346cb54031d2f4498fb5e94fd716cab, type: 3}
   m_Name: Rod5
   m_EditorClassIdentifier: 
   FishingRobID: 5
