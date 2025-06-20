@@ -10,3 +10,4 @@ public class FishingRobData :ScriptableObject
 
     public bool IsOwned;
 }
+

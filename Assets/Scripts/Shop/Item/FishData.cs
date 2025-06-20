@@ -21,3 +21,4 @@ public class FishData : ScriptableObject
         Strength = strength;
     }
 }
+
